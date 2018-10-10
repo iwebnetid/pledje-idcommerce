@@ -1,0 +1,13 @@
+{
+  "name": "splashpayments/splashpayments-php",
+  "description": "SplashPayments PHP SDK package",
+  "homepage": "https://test-portal.splashpayments.com",
+  "require": {
+    "php": ">=5.4.0",
+    "ext-curl": "*",
+    "ext-openssl": "*"
+  },
+  "autoload": {
+    "psr-4": { "SplashPayments\\" : "lib/" }
+  }
+}
